@@ -1,0 +1,21 @@
+.mainLayout {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.page {
+  width: calc(100% - 237px);
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 32px;
+  height: calc(100vh - 68px);
+  overflow-y: scroll;
+}

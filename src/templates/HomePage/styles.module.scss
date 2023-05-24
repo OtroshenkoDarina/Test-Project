@@ -1,0 +1,125 @@
+.additionsList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.topBlock {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.statsWrapper {
+    width: calc(100% - 264px - 24px);
+}
+
+.progressBg {
+    width: 100%;
+    background-size: cover;
+    background: url("../../assets/images/levels_bg.svg") no-repeat center;
+    border-radius: 10px;
+    height: 314px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.levelsList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.levelsList_item {
+    max-width: 105px;
+    max-height: 105px;
+    position: relative;
+}
+
+.levelsList_item_image {
+    max-width: 100px;
+}
+
+.progressCompleted {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    padding: 12px 24px;
+    bottom: 16px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.astronautImg {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.statsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 29px;
+}
+
+.statsList_item {
+    width: 273px;
+    height: 96px;
+    background: #28292B;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 16px 24px;
+}
+
+.statsList_item_progress {
+    width: 64px;
+    height: 64px;
+}
+
+.statsList_item_value {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+
+    span{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+}
+
+.statsList_item_text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
